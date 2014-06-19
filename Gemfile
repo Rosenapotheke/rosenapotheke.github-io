@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
+gem 'jekyll', '~> 2.x.x'
 gem 'kramdown'
 gem 'coderay'
 gem 'rake'
@@ -25,3 +25,8 @@ gem 'pandoc-ruby'
 gem 'jekyll-ebook'
 gem 'travis', '~> 1.6.12'
 gem 'jekyll-navigation'
+gem 'guard'
+gem 'uglifier'
+gem 'guard-uglify'
+
+
